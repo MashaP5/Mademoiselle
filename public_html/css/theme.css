@@ -7592,4 +7592,8 @@ textarea.form-control-lg {
 img {
   max-width: 100%; }
 
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400; }
+
 /*# sourceMappingURL=theme.css.map */

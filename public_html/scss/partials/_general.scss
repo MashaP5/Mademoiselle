@@ -1,5 +1,13 @@
 
+
+$body-font: $lato;
+
 img{
     max-width: 100%;
 }
 
+body{
+    font-family: $body-font;
+    font-weight: 400;
+        
+}
