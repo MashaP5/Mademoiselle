@@ -1,6 +1,13 @@
 $(document).ready(function () {
 
-
+    function FixedHeader() {
+        let userScroll = $(window).scrollTop();
+        if (userScroll > 100) {
+            $('header').addClass('active');
+        } else {
+            $('header').removeClass('active');
+        }
+    }
 
 
 // animation start
