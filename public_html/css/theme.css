@@ -8923,10 +8923,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 header {
   transition: 0.5s linear;
   background-color: #fff; }
-  header .active {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-top: 0px !important;
-    padding-bottom: 0px !important; }
   header .navbar-brand {
     max-width: 200px; }
   header .navbar-toggler {
@@ -8941,34 +8937,54 @@ header {
       margin-bottom: 5px; }
       header .navbar-toggler span:last-of-type {
         margin-bottom: 0; }
-  header .navbar-nav {
-    background-color: #fff; }
-    @media (min-width: 768px) {
-      header .navbar-nav li {
-        margin-left: 30px; } }
-    @media (min-width: 992px) {
-      header .navbar-nav li {
-        margin-left: 73px; } }
-    header .navbar-nav li a {
-      text-align: center;
-      font-size: 1.4rem;
-      line-height: 1.7rem;
-      font-weight: 400;
-      padding: 10px;
-      text-transform: uppercase;
-      border-bottom: 1px solid transparent; }
-      header .navbar-nav li a:hover {
-        border-bottom: 1px solid #ECD9D9; }
+  @media (min-width: 768px) {
+    header .navbar-nav li {
+      margin-left: 30px; } }
+  @media (min-width: 992px) {
+    header .navbar-nav li {
+      margin-left: 73px; } }
+  header .navbar-nav li a {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+    padding: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent; }
+    header .navbar-nav li a:hover {
+      border-bottom: 1px solid #ECD9D9; }
+
+header.active {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; }
 
 .hero {
   padding: 218px 0 269px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  background-attachment: fixed; }
 
 .blog {
   padding: 75px 0 56px; }
   .blog .blog-data {
-    padding: 22px 18px 57px; }
+    width: 313px;
+    padding: 22px 18px 57px;
+    margin: -9rem auto;
+    background-color: #fff; }
+    .blog .blog-data .blog-date {
+      font-family: "Bodoni Book Italic";
+      font-size: 1.4rem;
+      line-height: 1.7rem; }
+    .blog .blog-data .blog-title {
+      display: block;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      height: 5.76rem;
+      text-transform: uppercase; }
+
+.services {
+  padding: 56px 0 111px; }
 
 /*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,26 @@
+$blog-date: $bodoni-italic;
+
+.blog{
+    padding: 75px 0 56px;
+
+
+    .blog-data{
+        width: 313px;
+        padding: 22px 18px 57px;
+        margin: -9rem auto;
+        background-color: #fff;
+        .blog-date{
+            font-family: $blog-date;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+        }
+        .blog-title{
+            display: block;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            height: 5.76rem;
+            text-transform: uppercase;
+        }
+    }
+
+}

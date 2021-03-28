@@ -6,12 +6,6 @@ header{
     transition: 0.5s linear;
     background-color: #fff;
 
-    .active{
-        background-color: rgba(255,255,255,0.8);
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-    }
-
     .navbar-brand{
         max-width: 200px;
     }
@@ -32,8 +26,6 @@ header{
         }
     }// navbar-toggler
     .navbar-nav{
-        background-color: #fff;
-
         li{
             @media(min-width:768px){
                 margin-left: 30px;
@@ -59,7 +51,11 @@ header{
 }// header
 
 
-
+header.active{
+    background-color: rgba($white ,0.9);
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
 
 
 

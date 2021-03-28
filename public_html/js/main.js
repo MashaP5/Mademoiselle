@@ -8,6 +8,11 @@ $(document).ready(function () {
             $('header').removeClass('active');
         }
     }
+    
+    FixedHeader();
+    $(window).scroll(function () {
+        FixedHeader();});
+
 
 
 // animation start
