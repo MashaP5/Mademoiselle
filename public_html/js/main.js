@@ -15,6 +15,38 @@ $(document).ready(function () {
 
 
 
+   if ($('.people-slider').length > 0) {
+        $('.people-slider').owlCarousel({
+            margin: 0,
+            responsive: {
+                0: {
+                    items: 2,
+                    margin: 30
+
+                },
+                576: {
+                    items: 3,
+                    margin: 30
+                },
+                768: {
+                    items: 4,
+                    margin: 40
+                },
+                992: {
+                    items: 6,
+                    margin: 40
+
+                }
+            }
+        });
+    }
+
+
+
+
+
+
+
 // animation start
     function animation() {
         var windowHight = $(window).height();
