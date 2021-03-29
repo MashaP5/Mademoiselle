@@ -11,9 +11,12 @@
 @import "partials/_functions.scss";
 @import "partials/_components.scss";
 
-@import "partials/index/_header.scss";
-@import "partials/index/_hero.scss";
-@import "partials/index/_blog.scss";
-@import "partials/index/_services.scss";
-@import "partials/index/_people.scss";
-@import "partials/index/_footer.scss";
+
+@import "partials/main/_header.scss";
+@import "partials/main/_hero.scss";
+@import "partials/main/_footer.scss";
+@import "partials/main/_blog.scss";
+@import "partials/main/_people.scss";
+@import "partials/main/_services.scss";
+
+@import "partials/blog/_blog_main.scss";
