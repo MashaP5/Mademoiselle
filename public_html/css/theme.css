@@ -9159,4 +9159,40 @@ footer {
   .blog .pagination .page-item:not(:first-child) .page-link {
     margin-left: 4px; }
 
+.about {
+  padding: 91px 0 78px; }
+  .about .about-page h2, .about .about-page .h2 {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 3rem; }
+  .about .about-page img {
+    margin-bottom: 6.6rem; }
+  .about .about-page p:first-of-type {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 5rem; }
+  .about .about-page p:last-of-type {
+    font-size: 1.8rem;
+    line-height: 2.6rem; }
+  .about .has-search .form-control {
+    padding-left: 2.375rem; }
+  .about .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    right: 400px; }
+
+.error {
+  padding: 218px 0 269px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
 /*# sourceMappingURL=theme.css.map */
