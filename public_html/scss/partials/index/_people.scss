@@ -1,9 +1,60 @@
 .people{
-    
-    
+
     padding-bottom: 6.7rem;
-    
+
+    .owl-theme .owl-dots{
+
+
+        //padding-bottom: 196px;
+     
+
+        .owl-dot {
+            span{
+              
+                background-color: $secondary;
+                width: 8px;
+                height: 8px;
+                &:active{
+                    background-color: darken($secondary, 20%); 
+                } 
+            }
+        }
+    }
+
     .people-slider{
-        padding: 54px 190px 54px 95px;
+        border: 1px solid $secondary;
+        @media(min-width: 320px){
+            padding: 1rem;
+        }
+        @media(min-width: 768px){
+            padding: 2rem;
+        }
+        @media(min-width: 992px){
+            padding: 3rem;
+        }
+        @media(min-width: 1200px){
+            padding: 4rem;
+        }
+        @media(min-width: 1400px){
+            padding: 54px 190px 54px 95px;
+        }
+    }
+    .people-about{
+        @media(min-width: 992px){
+            margin-left: 2rem;
+        }
+        @media(min-width: 1200px){
+            margin-left: 3rem;
+        }
+        @media(min-width: 1400px){
+            margin-left: 107px;
+        }
+
+        .people-about-title{
+            font-size: 3rem;
+            line-height: 2.7rem;
+            margin-bottom: 3.5rem;
+
+        }
     }
 }

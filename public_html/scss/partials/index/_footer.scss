@@ -1,0 +1,27 @@
+footer{
+    padding: 49px 0 25px;
+
+    .fa{
+        margin-left: 2.1rem;
+        color: $secondary;
+        font-size: 2.5rem;
+
+        &:first-of-type{
+            margin-left: 0;
+        }
+    }
+
+    .copyright{
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        letter-spacing: -0.17px;
+        
+        a:hover{
+            color: $secondary;
+        }
+
+    }
+
+
+}
