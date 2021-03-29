@@ -18,7 +18,7 @@ $(document).ready(function () {
    if ($('.people-slider').length > 0) {
         $('.people-slider').owlCarousel({
             margin: 0,
-            //autoplay: true,
+            autoplay: true,
             loop: true,
             autoplayHoverPause: true,
             responsive: {

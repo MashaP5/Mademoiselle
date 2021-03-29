@@ -2,14 +2,11 @@ $blog-date: $bodoni-italic;
 
 .blog{
     padding: 75px 0 56px;
-
     .blog-item{
-
         position: relative;
         margin-bottom: 7rem;
-
         a{
-            display: block;   
+            display: block;
         }
         .blog-data{
             position: absolute;
@@ -42,7 +39,6 @@ $blog-date: $bodoni-italic;
             @media(min-width: 1200px){
                 width: 313px;
             }
-
             .blog-date{
                 font-family: $blog-date;
                 font-size: 1.4rem;
@@ -56,6 +52,10 @@ $blog-date: $bodoni-italic;
                 height: 4.8rem;
                 overflow: hidden;
                 text-transform: uppercase;
+
+                &:hover{
+                    color: $secondary;
+                }
             }
         }
 
