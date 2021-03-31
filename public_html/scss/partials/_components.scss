@@ -3,7 +3,7 @@ $btn-hover-color: #D54857;
 .btn{
    
     display: block;
-    @media(min-width:992px){
+    @media(min-width:768px){
         display: inline-block;
     }
     padding: 15px 36px;

@@ -8930,7 +8930,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-size: 1.4rem;
   line-height: 1.7rem;
   letter-spacing: 0.5px; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .btn {
       display: inline-block; } }
   .btn:hover {
@@ -8995,6 +8995,13 @@ header.active {
     .hero h1, .hero .h1 {
       font-size: 6rem;
       letter-spacing: 3rem; } }
+
+.hero.error-page .btn {
+  color: #fff;
+  border: 1px solid #fff;
+  margin-top: 3.2rem; }
+  .hero.error-page .btn:hover {
+    background-color: #e89ba3; }
 
 footer {
   padding: 49px 0 25px; }
@@ -9191,18 +9198,18 @@ footer {
   .about .about-page p:last-of-type {
     font-size: 1.8rem;
     line-height: 2.6rem; }
-  .about .has-search .form-control {
-    padding-left: 2.375rem; }
-  .about .has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    right: 400px; }
+  .about .form-group {
+    position: relative; }
+    .about .form-group .form-control {
+      padding: 2rem;
+      font-size: 2rem;
+      font-family: "Bodoni Book Italic"; }
+    .about .form-group .form-control-feedback {
+      position: absolute;
+      z-index: 2;
+      color: #1E1E1E;
+      right: 400px;
+      bottom: 3px;
+      font-size: 2rem; }
 
 /*# sourceMappingURL=theme.css.map */

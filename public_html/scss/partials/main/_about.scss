@@ -1,3 +1,5 @@
+$form-control-font:$bodoni-italic;
+$form-span-color: $body-color;
 .about{
 
     padding: 91px 0 78px;
@@ -27,22 +29,23 @@
     }
 
 
+    .form-group{
+        position: relative;
+        .form-control {
+            padding: 2rem;
+            font-size: 2rem;
+            font-family: $form-control-font;
 
-    .has-search .form-control {
-        padding-left: 2.375rem;
+        }
+
+        .form-control-feedback {
+            position: absolute;
+            z-index: 2;
+           
+            color: $form-span-color;
+            right: 400px;
+            bottom: 3px;  
+            font-size: 2rem;
+        }
     }
-
-    .has-search .form-control-feedback {
-        position: absolute;
-        z-index: 2;
-        display: block;
-        width: 2.375rem;
-        height: 2.375rem;
-        line-height: 2.375rem;
-        text-align: center;
-        pointer-events: none;
-        color: #aaa;
-        right: 400px;
-    }
-
 }
