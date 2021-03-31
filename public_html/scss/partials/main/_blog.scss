@@ -1,10 +1,12 @@
 $blog-date: $bodoni-italic;
+$blog-hover-color: $secondary;
+$pagination-font: $bodoni-regular;
 
 .blog{
     padding: 75px 0 56px;
     .blog-item{
         position: relative;
-        margin-bottom: 10rem;
+        margin-bottom: 7rem;
         a{
             display: block;
         }
@@ -29,7 +31,6 @@ $blog-date: $bodoni-italic;
             }
             @media(min-width: 768px){
                 width: 200px;
-                margin-top: -7rem;
                 margin-left: 1.5rem;
             }
             @media(min-width: 992px){
@@ -54,14 +55,45 @@ $blog-date: $bodoni-italic;
                 text-transform: uppercase;
 
                 &:hover{
-                    color: $secondary;
+                    color: $blog-hover-color;
                 }
             }
         }
 
     }
 
+.pagination{
 
+        justify-content: center;
+
+        .page-link{
+            color: $body-font;
+            border: none;
+            font-family: $pagination-font;
+
+            &:hover{
+                color: $secondary;
+                background-color: transparent;
+            }
+
+            &:focus{
+                color: $secondary;
+                background-color: transparent;
+                outline: none;
+                box-shadow: 0 0 0 0.25rem rgba(236, 217, 217, 0.25);
+            }
+        }
+
+        .arrow{
+            font-size: 2.8rem;
+        }
+
+        .page-item{
+            &:not(:first-child) .page-link {
+                margin-left: 4px;
+            }
+        }
+    }
 
 
 

@@ -6,16 +6,16 @@ footer{
         
         
         .fa{
-            margin-left: 2.1rem;
+            margin: 0 16px;
             color: $secondary;
             font-size: 2.5rem;
             
             &:hover{
                 transform: scale(1.5);
             }
-            &:first-of-type{
+/*            &:first-of-type{
                 margin-left: 0;
-            }
+            }*/
         }
     }
 
