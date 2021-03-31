@@ -80,6 +80,9 @@ $(document).ready(function () {
                         required: true,
                         email: true
                     },
+                    subject:{
+                         required: true
+                    },
                     message: {
                         required: true,
                         maxlength: 255
@@ -93,6 +96,9 @@ $(document).ready(function () {
                     email: {
                         required: 'Email* is required field!!!',
                         email: 'Please insert valid Email address!!!'
+                    },
+                    subject: {
+                        required: 'Subject* is required field!!!'
                     },
                     message: {
                         required: 'Message* is required field!!!',

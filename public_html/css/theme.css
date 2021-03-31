@@ -9203,13 +9203,38 @@ footer {
     .about .form-group .form-control {
       padding: 2rem;
       font-size: 2rem;
-      font-family: "Bodoni Book Italic"; }
+      font-family: "Bodoni Book Italic";
+      border: 1px solid #1E1E1E; }
+      .about .form-group .form-control::placeholder {
+        color: #1E1E1E; }
+      .about .form-group .form-control:focus {
+        box-shadow: 0 0 0 0.25rem rgba(213, 72, 87, 0.25); }
     .about .form-group .form-control-feedback {
       position: absolute;
       z-index: 2;
       color: #1E1E1E;
-      right: 400px;
-      bottom: 3px;
-      font-size: 2rem; }
+      font-size: 2rem;
+      right: 9px;
+      bottom: 27px; }
+
+.contact {
+  padding: 102px 0 110px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto 100%; }
+  .contact .contact-form {
+    width: 100%;
+    max-width: 554px; }
+
+.single-services {
+  padding: 170px 0 181px; }
+  .single-services .single-service-content h2, .single-services .single-service-content .h2 {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem; }
+  .single-services .single-service-content p {
+    font-size: 1.8rem;
+    line-height: 2.6rem; }
 
 /*# sourceMappingURL=theme.css.map */

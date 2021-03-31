@@ -1,5 +1,7 @@
 $form-control-font:$bodoni-italic;
 $form-span-color: $body-color;
+$form-placeholder-color: $body-color;
+
 .about{
 
     padding: 91px 0 78px;
@@ -28,7 +30,6 @@ $form-span-color: $body-color;
         }
     }
 
-
     .form-group{
         position: relative;
         .form-control {
@@ -36,16 +37,26 @@ $form-span-color: $body-color;
             font-size: 2rem;
             font-family: $form-control-font;
 
+            &::placeholder{
+                color: $form-placeholder-color
+            }
+            border: 1px solid #1E1E1E;
+            &:focus{
+                box-shadow: 0 0 0 0.25rem rgba($btn-hover-color, 0.25);
+            }
         }
-
         .form-control-feedback {
             position: absolute;
             z-index: 2;
-           
             color: $form-span-color;
-            right: 400px;
-            bottom: 3px;  
             font-size: 2rem;
+            right: 9px;
+            bottom: 27px;  
+
+
+
+
+
         }
     }
 }
