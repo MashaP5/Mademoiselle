@@ -2,6 +2,7 @@ $blog-date: $bodoni-italic;
 $blog-hover-color: $secondary;
 $pagination-font: $bodoni-regular;
 
+
 .blog{
     padding: 75px 0 56px;
     .blog-item{
@@ -62,7 +63,7 @@ $pagination-font: $bodoni-regular;
 
     }
 
-.pagination{
+    .pagination{
 
         justify-content: center;
 
@@ -95,6 +96,6 @@ $pagination-font: $bodoni-regular;
         }
     }
 
-
-
 }
+
+

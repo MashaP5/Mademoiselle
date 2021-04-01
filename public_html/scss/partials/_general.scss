@@ -32,6 +32,9 @@ img{
 .size-4by3:after{
     padding-top: 75%;
 }
+.size-custom:after{
+    padding-top: 66%;
+}
 body{
     font-family: $body-font;
     font-weight: 300;
@@ -69,3 +72,4 @@ h1, h2, h3, h4, h5, h6{
     color: #FFFFFF;
     letter-spacing: 2rem;
 }
+

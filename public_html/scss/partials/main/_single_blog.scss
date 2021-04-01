@@ -1,0 +1,77 @@
+$tags-font: $bodoni-italic;
+$blog-info-font:$bodoni-regular;
+$news-date-font:  $bodoni-italic;
+.single-blog{
+    padding: 165px 0 97px;
+
+    .blog-info{
+        a{
+            font-family: $blog-info-font;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            text-transform: capitalize;
+            
+            &:hover{
+                color: $secondary;
+            }
+        }
+
+        span{
+            margin: 0 5px
+        }
+        
+        .news-date{
+            font-family: $news-date-font;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+        }
+    }
+
+    .single-blog-title{
+        font-size: 4.4rem;
+        line-height: 5rem;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+
+    .single-blog-desc{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
+
+
+.single-item-content{
+    width: 100%;
+    max-width: 748px;
+    margin: 0 auto;
+
+    padding-bottom: 50px;
+    @media(min-width:768px){
+        padding-bottom: 70px;
+    }
+    @media(min-width:992px){
+        padding-bottom: 110px;
+    }
+    @media(min-width:1200px){
+        padding-bottom: 140px;
+    }
+
+    p{
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+
+
+
+    .tags{
+        .tag-label{
+            font-family: $tags-font;
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+
+        }
+    }
+
+}

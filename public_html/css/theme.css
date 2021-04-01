@@ -8884,6 +8884,9 @@ img {
 .size-4by3:after {
   padding-top: 75%; }
 
+.size-custom:after {
+  padding-top: 66%; }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -9218,23 +9221,25 @@ footer {
       bottom: 27px; }
 
 .contact {
-  padding-top: 102px;
-  margin-bottom: 110px;
+  padding: 120px 0 110px;
   background-position: right center;
   background-repeat: no-repeat;
   background-size: auto 100%; }
-  .contact .contact-form {
-    width: 100%;
-    max-width: 554px; }
-    .contact .contact-form .form-control {
-      margin-bottom: 2rem;
-      border: none;
-      background-color: rgba(37, 61, 97, 0.1); }
-      .contact .contact-form .form-control:last-of-type {
-        margin-bottom: 3rem; }
-      .contact .contact-form .form-control:focus {
-        box-shadow: 0 0 0 0.25rem rgba(236, 217, 217, 0.25);
-        border-color: #ECD9D9; }
+  .contact .contact-wrapper {
+    max-width: 100%;
+    width: 554px; }
+    .contact .contact-wrapper .contact-form {
+      width: 100%;
+      max-width: 554px; }
+      .contact .contact-wrapper .contact-form .form-control {
+        margin-bottom: 2rem;
+        border: none;
+        background-color: rgba(37, 61, 97, 0.1); }
+        .contact .contact-wrapper .contact-form .form-control:last-of-type {
+          margin-bottom: 3rem; }
+        .contact .contact-wrapper .contact-form .form-control:focus {
+          box-shadow: 0 0 0 0.25rem rgba(236, 217, 217, 0.25);
+          border-color: #ECD9D9; }
 
 .contact-info {
   padding: 63px 0 60px;
@@ -9259,5 +9264,52 @@ footer {
   .single-services .single-service-content p {
     font-size: 1.8rem;
     line-height: 2.6rem; }
+
+.single-blog {
+  padding: 165px 0 97px; }
+  .single-blog .blog-info a {
+    font-family: "Bodoni Book Regular";
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-transform: capitalize; }
+    .single-blog .blog-info a:hover {
+      color: #ECD9D9; }
+  .single-blog .blog-info span {
+    margin: 0 5px; }
+  .single-blog .blog-info .news-date {
+    font-family: "Bodoni Book Italic";
+    font-size: 1.4rem;
+    line-height: 1.7rem; }
+  .single-blog .single-blog-title {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem; }
+  .single-blog .single-blog-desc {
+    font-size: 2rem;
+    line-height: 2.8rem; }
+
+.single-item-content {
+  width: 100%;
+  max-width: 748px;
+  margin: 0 auto;
+  padding-bottom: 50px; }
+  @media (min-width: 768px) {
+    .single-item-content {
+      padding-bottom: 70px; } }
+  @media (min-width: 992px) {
+    .single-item-content {
+      padding-bottom: 110px; } }
+  @media (min-width: 1200px) {
+    .single-item-content {
+      padding-bottom: 140px; } }
+  .single-item-content p {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem; }
+  .single-item-content .tags .tag-label {
+    font-family: "Bodoni Book Italic";
+    font-size: 1.6rem;
+    line-height: 2.7rem; }
 
 /*# sourceMappingURL=theme.css.map */

@@ -2,37 +2,40 @@ $form-control-focus: $secondary;
 $form-control-background: #253D61;
 
 .contact{
-    //padding: 102px 0 110px;
-    padding-top: 102px;
-    margin-bottom: 110px;
+    padding: 120px 0 110px;
+
     background-position: right center;
     background-repeat: no-repeat;
     background-size: auto 100%;
 
-
-    .contact-form{
-        width: 100%;
-        max-width: 554px;
-
+    .contact-wrapper{
         
-        .form-control{
-            
-            margin-bottom: 2rem;
-            border: none;
-            background-color: rgba($form-control-background, 0.1);
-            
-            &:last-of-type{
-                margin-bottom: 3rem;
+        max-width: 100%;
+        width: 554px;
+        
+        .contact-form{
+            width: 100%;
+            max-width: 554px;
+
+
+            .form-control{
+
+                margin-bottom: 2rem;
+                border: none;
+                background-color: rgba($form-control-background, 0.1);
+
+                &:last-of-type{
+                    margin-bottom: 3rem;
+                }
+                &:focus{
+                    box-shadow: 0 0 0 0.25rem rgba($form-control-focus, 0.25);
+                    border-color: $form-control-focus;
+                }
+
             }
-            &:focus{
-                box-shadow: 0 0 0 0.25rem rgba($form-control-focus, 0.25);
-                 border-color: $form-control-focus;
-            }
-           
+
         }
-        
-    }
-}
+    }}
 
 .contact-info{
     padding: 63px 0 60px;
@@ -47,7 +50,7 @@ $form-control-background: #253D61;
         a{
             font-size: 2.4rem;
             line-height: 2.5rem;  
-            
+
             &:hover{
                 color: $white;
             }
