@@ -91,7 +91,7 @@ $(document).ready(function () {
                 },
                 messages: {
                     name: {
-                        required: 'Name* is required field!!!'
+                        required: 'Name and surname* is required field!!!'
                     },
                     email: {
                         required: 'Email* is required field!!!',

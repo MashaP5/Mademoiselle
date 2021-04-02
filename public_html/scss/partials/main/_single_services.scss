@@ -1,6 +1,11 @@
 .single-services{
-    padding: 170px 0 181px;
-
+    //padding: 170px 0 181px;
+    @media(min-width:320px){
+        padding: 150px 0 50px;
+    }
+     @media(min-width:992px){
+        padding: 170px 0 106px;
+    }
     .single-service-content{
         h2{
             font-size: 4.4rem;

@@ -8949,7 +8949,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Bodoni Book Regular";
   font-size: 1.6rem;
   line-height: 2.7rem;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  margin-right: 1rem; }
 
 header {
   transition: 0.5s linear;
@@ -9237,25 +9238,23 @@ footer {
       bottom: 27px; }
 
 .contact {
-  padding: 120px 0 110px;
-  background-position: right center;
-  background-repeat: no-repeat;
-  background-size: auto 100%; }
-  .contact .contact-wrapper {
-    max-width: 100%;
-    width: 554px; }
-    .contact .contact-wrapper .contact-form {
-      width: 100%;
-      max-width: 554px; }
-      .contact .contact-wrapper .contact-form .form-control {
-        margin-bottom: 2rem;
-        border: none;
-        background-color: rgba(37, 61, 97, 0.1); }
-        .contact .contact-wrapper .contact-form .form-control:last-of-type {
-          margin-bottom: 3rem; }
-        .contact .contact-wrapper .contact-form .form-control:focus {
-          box-shadow: 0 0 0 0.25rem rgba(236, 217, 217, 0.25);
-          border-color: #ECD9D9; }
+  padding: 120px 0 110px; }
+  .contact .form-control {
+    margin-bottom: 2rem;
+    border: none;
+    background-color: rgba(37, 61, 97, 0.02);
+    padding: 12px 7px 11px 19px; }
+    .contact .form-control:last-of-type {
+      margin-bottom: 3rem; }
+    .contact .form-control:focus {
+      box-shadow: 0 0 0 0.25rem rgba(236, 217, 217, 0.25);
+      border-color: #ECD9D9; }
+    .contact .form-control::placeholder {
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      font-size: 1.6rem;
+      line-height: 2.5rem;
+      letter-spacing: -0.23px; }
 
 .contact-info {
   padding: 63px 0 60px;
@@ -9270,16 +9269,23 @@ footer {
       .contact-info p a:hover {
         color: #fff; }
 
-.single-services {
-  padding: 170px 0 181px; }
-  .single-services .single-service-content h2, .single-services .single-service-content .h2 {
-    font-size: 4.4rem;
-    line-height: 5rem;
-    text-transform: uppercase;
-    margin-bottom: 3rem; }
-  .single-services .single-service-content p {
-    font-size: 1.8rem;
-    line-height: 2.6rem; }
+@media (min-width: 320px) {
+  .single-services {
+    padding: 150px 0 50px; } }
+
+@media (min-width: 992px) {
+  .single-services {
+    padding: 170px 0 106px; } }
+
+.single-services .single-service-content h2, .single-services .single-service-content .h2 {
+  font-size: 4.4rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem; }
+
+.single-services .single-service-content p {
+  font-size: 1.8rem;
+  line-height: 2.6rem; }
 
 .single-blog {
   padding: 165px 0 97px; }

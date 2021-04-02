@@ -1,28 +1,17 @@
 $form-control-focus: $secondary;
 $form-control-background: #253D61;
+$placeholder-font: $lato;
 
 .contact{
     padding: 120px 0 110px;
 
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-
-    .contact-wrapper{
-        
-        max-width: 100%;
-        width: 554px;
-        
-        .contact-form{
-            width: 100%;
-            max-width: 554px;
-
-
+    
             .form-control{
 
                 margin-bottom: 2rem;
                 border: none;
-                background-color: rgba($form-control-background, 0.1);
+                background-color: rgba($form-control-background, 0.02);
+                padding: 12px 7px 11px 19px;
 
                 &:last-of-type{
                     margin-bottom: 3rem;
@@ -31,11 +20,21 @@ $form-control-background: #253D61;
                     box-shadow: 0 0 0 0.25rem rgba($form-control-focus, 0.25);
                     border-color: $form-control-focus;
                 }
+                &::placeholder{
+                    font-family: $placeholder-font;
+                    font-weight: 300;
+                    font-size: 1.6rem;
+                    line-height: 2.5rem;
+                    letter-spacing: -0.23px;
+                    
+                }
 
             }
 
-        }
-    }}
+      
+    }
+    
+  
 
 .contact-info{
     padding: 63px 0 60px;
