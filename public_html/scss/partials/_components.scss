@@ -1,7 +1,9 @@
 
 $btn-hover-color: #D54857;
+$tag-btn-background: #F5F5F5;
+$tag-font: $bodoni-regular;
 .btn{
-   
+
     display: block;
     @media(min-width:768px){
         display: inline-block;
@@ -18,9 +20,22 @@ $btn-hover-color: #D54857;
     &:hover{
         background-color: lighten($btn-hover-color, 40%); 
     }
-    
+
     &:focus{
         box-shadow: 0 0 0 0.25rem rgba($btn-hover-color, 0.25);
     }
-    
+
+}
+
+.btn{
+    .single-item &{
+        display: inline-block;
+        background-color: $tag-btn-background;
+        border: none;
+        padding: 3px 14px;
+        font-family: $tag-font;
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+        text-transform: lowercase;
+    }
 }

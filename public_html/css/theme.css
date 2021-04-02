@@ -8941,6 +8941,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   .btn:focus {
     box-shadow: 0 0 0 0.25rem rgba(213, 72, 87, 0.25); }
 
+.single-item .btn {
+  display: inline-block;
+  background-color: #F5F5F5;
+  border: none;
+  padding: 3px 14px;
+  font-family: "Bodoni Book Regular";
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  text-transform: lowercase; }
+
 header {
   transition: 0.5s linear;
   background-color: #fff; }
@@ -8981,7 +8991,7 @@ header.active {
   padding-bottom: 0px !important; }
 
 .hero {
-  padding: 218px 0 269px;
+  padding: 238px 0 269px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9203,6 +9213,12 @@ footer {
     line-height: 2.6rem; }
   .about .form-group {
     position: relative; }
+    @media (min-width: 320px) {
+      .about .form-group {
+        padding-top: 3rem; } }
+    @media (min-width: 768px) {
+      .about .form-group {
+        padding-top: 0; } }
     .about .form-group .form-control {
       padding: 2rem;
       font-size: 2rem;

@@ -32,6 +32,12 @@ $form-placeholder-color: $body-color;
 
     .form-group{
         position: relative;
+        @media(min-width:320px){
+            padding-top: 3rem;
+        }
+         @media(min-width:768px){
+            padding-top: 0;
+        }
         .form-control {
             padding: 2rem;
             font-size: 2rem;
