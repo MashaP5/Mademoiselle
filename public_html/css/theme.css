@@ -9741,7 +9741,7 @@ header.active {
   padding-bottom: 0px !important; }
 
 .hero {
-  padding: 238px 0 269px;
+  padding: 326px 0 269px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9752,7 +9752,6 @@ header.active {
       letter-spacing: 0.1rem; } }
   @media (min-width: 450px) {
     .hero h1, .hero .h1 {
-      font-size: 5rem;
       letter-spacing: 1.1rem; } }
   @media (min-width: 768px) {
     .hero h1, .hero .h1 {
@@ -9799,11 +9798,11 @@ footer {
       z-index: 1;
       background-color: #fff;
       padding: 22px 18px 57px;
-      margin-top: -9rem;
-      margin-left: 2.5rem; }
+      margin-top: -9rem; }
       @media (min-width: 320px) {
         .blog .blog-item .blog-data {
-          width: 260px; } }
+          width: 260px;
+          margin-left: 2.5rem; } }
       @media (min-width: 450px) {
         .blog .blog-item .blog-data {
           width: 313px;
@@ -9823,6 +9822,9 @@ footer {
       @media (min-width: 1200px) {
         .blog .blog-item .blog-data {
           width: 313px; } }
+      @media (min-width: 1400px) {
+        .blog .blog-item .blog-data {
+          margin-left: 5.5rem; } }
       .blog .blog-item .blog-data .blog-date {
         font-family: "Bodoni Book Italic";
         font-size: 1.4rem;
@@ -9834,7 +9836,8 @@ footer {
         line-height: 2.4rem;
         height: 4.8rem;
         overflow: hidden;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-weight: 400; }
         .blog .blog-item .blog-data .blog-title:hover {
           color: #ECD9D9; }
   .blog .pagination {
@@ -9988,6 +9991,13 @@ footer {
 
 .contact {
   padding: 120px 0 110px; }
+  .contact .contact-title {
+    font-family: "Bodoni Book Regular";
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 4rem; }
   @media (min-width: 992px) {
     .contact .contact-wrapper {
       margin-left: 15px;
@@ -10091,7 +10101,8 @@ footer {
   .single-item-content p {
     margin-bottom: 2rem;
     font-size: 1.8rem;
-    line-height: 2.6rem; }
+    line-height: 2.6rem;
+    text-align: justify; }
   .single-item-content .tags .tag-label {
     font-family: "Bodoni Book Italic";
     font-size: 1.6rem;

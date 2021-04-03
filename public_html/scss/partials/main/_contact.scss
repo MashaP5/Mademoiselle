@@ -5,7 +5,14 @@ $placeholder-font: $lato;
 .contact{
     padding: 120px 0 110px;
 
-
+    .contact-title{
+        font-family: $section-font;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-bottom: 4rem;
+    }
     .contact-wrapper{
         @media(min-width:992px){
             margin-left: 15px;

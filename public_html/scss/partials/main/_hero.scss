@@ -2,7 +2,7 @@
 $hero-btn-hover-color: #D54857;
 
 .hero{
-    padding: 238px 0 269px;
+    padding: 326px 0 269px;
     background-repeat: no-repeat;
     background-size: cover;   
     background-position: center center;
@@ -14,8 +14,7 @@ $hero-btn-hover-color: #D54857;
             letter-spacing: 0.1rem;
         }
         @media(min-width:450px){
-            font-size: 5rem;
-            letter-spacing: 1.1rem;
+           letter-spacing: 1.1rem;
         }
         @media(min-width:768px){
             font-size: 6rem;
