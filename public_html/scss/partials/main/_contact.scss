@@ -5,6 +5,8 @@ $placeholder-font: $lato;
 .contact{
     padding: 120px 0 110px;
 
+
+
     .contact-title{
         font-family: $section-font;
         font-size: 3rem;
@@ -23,14 +25,12 @@ $placeholder-font: $lato;
             margin-left: 29px;
         }
         @media(min-width:1400px){
-            //margin-left: 291px;
             margin-left: 39px;
         }
 
     }
 
     .contact-map{
-
 
         @media(min-width:992px){
             width: 50%;
