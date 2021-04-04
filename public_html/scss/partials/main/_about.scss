@@ -4,7 +4,13 @@ $form-placeholder-color: $body-color;
 
 .about{
 
-    padding: 91px 0 78px;
+    @media(min-width:320px){
+        padding: 91px 0 50px;
+    }   
+    @media(min-width:768px){
+        padding: 91px 0 78px;
+    }   
+  
 
     .about-page{
         h2{
@@ -33,7 +39,7 @@ $form-placeholder-color: $body-color;
     .form-group{
         position: relative;
         @media(min-width:320px){
-            padding-top: 3rem;
+            padding-top: 7rem;
         }
          @media(min-width:768px){
             padding-top: 0;

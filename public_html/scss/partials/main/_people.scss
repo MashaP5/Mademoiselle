@@ -13,7 +13,8 @@
                 background-color: $secondary;
                 width: 8px;
                 height: 8px;
-                &:active{
+                margin-top: 10px;
+              &:active{
                     background-color: darken($secondary, 20%); 
                 } 
             }
@@ -35,7 +36,7 @@
             padding: 4rem;
         }
         @media(min-width: 1400px){
-            padding: 54px 190px 54px 95px;
+            padding: 54px 190px 44px 95px;
         }
     }
     .people-about{

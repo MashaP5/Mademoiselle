@@ -9700,6 +9700,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 2.7rem;
   text-transform: lowercase;
   margin-right: 1rem; }
+  .single-item .btn:hover {
+    background-color: #ECD9D9; }
 
 header {
   transition: 0.5s linear;
@@ -9864,7 +9866,8 @@ footer {
   .people .owl-theme .owl-dots .owl-dot span {
     background-color: #ECD9D9;
     width: 8px;
-    height: 8px; }
+    height: 8px;
+    margin-top: 10px; }
     .people .owl-theme .owl-dots .owl-dot span:active {
       background-color: #ca9595; }
   .people .people-slider {
@@ -9883,7 +9886,7 @@ footer {
         padding: 4rem; } }
     @media (min-width: 1400px) {
       .people .people-slider {
-        padding: 54px 190px 54px 95px; } }
+        padding: 54px 190px 44px 95px; } }
   @media (min-width: 992px) {
     .people .people-about {
       margin-left: 2rem; } }
@@ -9949,45 +9952,55 @@ footer {
   .services.main-services {
     padding: 88px 0 37px; } }
 
-.about {
-  padding: 91px 0 78px; }
-  .about .about-page h2, .about .about-page .h2 {
-    font-size: 4.4rem;
-    line-height: 5rem;
-    margin-bottom: 3rem; }
-  .about .about-page img {
-    margin-bottom: 6.6rem; }
-  .about .about-page p:first-of-type {
+@media (min-width: 320px) {
+  .about {
+    padding: 91px 0 50px; } }
+
+@media (min-width: 768px) {
+  .about {
+    padding: 91px 0 78px; } }
+
+.about .about-page h2, .about .about-page .h2 {
+  font-size: 4.4rem;
+  line-height: 5rem;
+  margin-bottom: 3rem; }
+
+.about .about-page img {
+  margin-bottom: 6.6rem; }
+
+.about .about-page p:first-of-type {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 5rem; }
+
+.about .about-page p:last-of-type {
+  font-size: 1.8rem;
+  line-height: 2.6rem; }
+
+.about .form-group {
+  position: relative; }
+  @media (min-width: 320px) {
+    .about .form-group {
+      padding-top: 7rem; } }
+  @media (min-width: 768px) {
+    .about .form-group {
+      padding-top: 0; } }
+  .about .form-group .form-control {
+    padding: 2rem;
     font-size: 2rem;
-    line-height: 2.8rem;
-    margin-bottom: 5rem; }
-  .about .about-page p:last-of-type {
-    font-size: 1.8rem;
-    line-height: 2.6rem; }
-  .about .form-group {
-    position: relative; }
-    @media (min-width: 320px) {
-      .about .form-group {
-        padding-top: 3rem; } }
-    @media (min-width: 768px) {
-      .about .form-group {
-        padding-top: 0; } }
-    .about .form-group .form-control {
-      padding: 2rem;
-      font-size: 2rem;
-      font-family: "Bodoni Book Italic";
-      border: 1px solid #1E1E1E; }
-      .about .form-group .form-control::placeholder {
-        color: #1E1E1E; }
-      .about .form-group .form-control:focus {
-        box-shadow: 0 0 0 0.25rem rgba(213, 72, 87, 0.25); }
-    .about .form-group .form-control-feedback {
-      position: absolute;
-      z-index: 2;
-      color: #1E1E1E;
-      font-size: 2rem;
-      right: 9px;
-      bottom: 27px; }
+    font-family: "Bodoni Book Italic";
+    border: 1px solid #1E1E1E; }
+    .about .form-group .form-control::placeholder {
+      color: #1E1E1E; }
+    .about .form-group .form-control:focus {
+      box-shadow: 0 0 0 0.25rem rgba(213, 72, 87, 0.25); }
+  .about .form-group .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    color: #1E1E1E;
+    font-size: 2rem;
+    right: 9px;
+    bottom: 27px; }
 
 .contact {
   padding: 120px 0 110px; }
@@ -10070,7 +10083,7 @@ footer {
     .single-blog .blog-info a:hover {
       color: #ECD9D9; }
   .single-blog .blog-info span {
-    margin: 0 5px; }
+    margin: 0 7px; }
   .single-blog .blog-info .news-date {
     font-family: "Bodoni Book Italic";
     font-size: 1.4rem;

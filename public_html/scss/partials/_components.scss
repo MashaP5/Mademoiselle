@@ -2,6 +2,7 @@
 $btn-hover-color: #D54857;
 $tag-btn-background: #F5F5F5;
 $tag-font: $bodoni-regular;
+$tag-hover-background: $secondary;
 .btn{
 
     display: block;
@@ -38,5 +39,9 @@ $tag-font: $bodoni-regular;
         line-height: 2.7rem;
         text-transform: lowercase;
         margin-right:  1rem;
+        
+        &:hover{
+            background-color: $tag-hover-background;
+        }
     }
 }
