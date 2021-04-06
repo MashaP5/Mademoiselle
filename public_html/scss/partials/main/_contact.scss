@@ -5,8 +5,16 @@ $placeholder-font: $lato;
 .contact{
     padding: 120px 0 110px;
 
-
-
+    @media(min-width:992px){
+        position: relative;
+    }
+    .contact-map{
+        .ratio{
+            @media(min-width:992px){
+                position: static; 
+            }
+        }
+    }
     .contact-title{
         font-family: $section-font;
         font-size: 3rem;
@@ -15,30 +23,21 @@ $placeholder-font: $lato;
         text-transform: uppercase;
         margin-bottom: 4rem;
     }
-    .contact-wrapper{
+    .map-wrapper{
         @media(min-width:992px){
-            margin-left: 15px;
-            width: 45%;
+            position: absolute;
+            top: 14%;
+            right: 0;
+            height: 648px;
+            max-height: 100%;
         }
+    }
+    .form-content{
         @media(min-width:1200px){
-            width: 40%;
-            margin-left: 29px;
-        }
-        @media(min-width:1400px){
-            margin-left: 39px;
-        }
-
-    }
-
-    .contact-map{
-
-        @media(min-width:992px){
-            width: 50%;
+            margin-right: 111px;
         }
     }
-
     .form-control{
-
         margin-bottom: 2rem;
         border: none;
         background-color: rgba($form-control-background, 0.02);
@@ -57,21 +56,14 @@ $placeholder-font: $lato;
             font-size: 1.6rem;
             line-height: 2.5rem;
             letter-spacing: -0.23px;
-
         }
-
     }
-
-
 }
-
 
 
 .contact-info{
     padding: 63px 0 60px;
     margin-bottom: 4.6rem;
-
-
     p{
         margin-bottom: 15px;
         &:last-of-type{
@@ -80,11 +72,9 @@ $placeholder-font: $lato;
         a{
             font-size: 2.4rem;
             line-height: 2.5rem;  
-
             &:hover{
                 color: $white;
             }
         }
     }
-
 }

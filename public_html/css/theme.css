@@ -10004,6 +10004,12 @@ footer {
 
 .contact {
   padding: 120px 0 110px; }
+  @media (min-width: 992px) {
+    .contact {
+      position: relative; } }
+  @media (min-width: 992px) {
+    .contact .contact-map .ratio {
+      position: static; } }
   .contact .contact-title {
     font-family: "Bodoni Book Regular";
     font-size: 3rem;
@@ -10012,19 +10018,15 @@ footer {
     text-transform: uppercase;
     margin-bottom: 4rem; }
   @media (min-width: 992px) {
-    .contact .contact-wrapper {
-      margin-left: 15px;
-      width: 45%; } }
+    .contact .map-wrapper {
+      position: absolute;
+      top: 14%;
+      right: 0;
+      height: 648px;
+      max-height: 100%; } }
   @media (min-width: 1200px) {
-    .contact .contact-wrapper {
-      width: 40%;
-      margin-left: 29px; } }
-  @media (min-width: 1400px) {
-    .contact .contact-wrapper {
-      margin-left: 39px; } }
-  @media (min-width: 992px) {
-    .contact .contact-map {
-      width: 50%; } }
+    .contact .form-content {
+      margin-right: 111px; } }
   .contact .form-control {
     margin-bottom: 2rem;
     border: none;
